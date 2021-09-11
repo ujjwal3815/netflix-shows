@@ -45,15 +45,15 @@
   border-top-right-radius: 12px;
 }
 
-.card_info{
+.card_info {
   background-color: #fff;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
   padding: 16px 24px 24px 24px;
 }
 
-.card_categories{
-  font-family: "Raleway",sans-serif;
+.card_categories {
+  font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   background-color: #fff;
   font-size: 13px;
@@ -62,17 +62,17 @@
   color: #868686;
 }
 
-.card_title{
+.card_title {
   background-color: #fff;
   margin-top: 5px;
   margin-bottom: 10px;
-  font-family: "Raleway",sans-serif;
+  font-family: 'Raleway', sans-serif;
   text-transform: capitalize;
 }
 
-button{
+button {
   padding: 5px 8px;
-  font-family: "Raleway",sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 13px;
   letter-spacing: 2px;
   font-weight: 500;
@@ -83,3 +83,10 @@ button{
   cursor: pointer;
 }
 
+@media (max-width = 768px) {
+  .card {
+    float: none;
+    margin: 5%;
+    width: 90%;
+  }
+}
